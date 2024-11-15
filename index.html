@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gropius</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: #000000;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 600px;
+        }
+
+        .logo {
+            width: 150px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .tool-name {
+            font-size: 2rem;
+            margin-top: 0px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .message {
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        .email-link {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: 2px solid #ffffff;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .email-link i {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        .email-link:hover {
+            background: #ffffff;
+            color: #000000;
+        }
+
+        .footer {
+            width: 100%;
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #cccccc;
+        }
+
+        .footer i {
+            font-size: 1.5rem;
+        }
+    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.svg" alt="Gropius Logo" class="logo">
+        <div class="tool-name">Gropius</div>
+        <div class="message">This page is under construction</div>
+        <a href="mailto:sandro.speth@iste.uni-stuttgart.de" class="email-link">
+            <i class="fa-regular fa-envelope"></i> Contact Us to Try Gropius out
+        </a>
+    </div>
+
+    <div class="footer">
+        <a href="https://github.com/ccims" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sandro-speth/?locale=en_US" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://ccims.github.io/gropius-docs/" target="_blank" title="Documentation">
+            <i class="fas fa-book"></i>
+        </a>
+    </div>
+</body>
+</html>
